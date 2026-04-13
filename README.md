@@ -82,13 +82,12 @@ cd taskflow-rajesh-kumar
 
 cp .env.example .env
 
-docker compose up --build
+docker compose up --d
 ```
 
 ### 🌐 Access the app
 
-* Frontend → http://localhost:3000
-* Backend → http://localhost:8000
+* Application → http://localhost:3000
 
 ---
 
@@ -110,7 +109,7 @@ Use the following credentials to log in:
 
 ```
 Email:    test@example.com
-Password: password123
+Password: 123456
 ```
 
 ---
@@ -126,7 +125,7 @@ Request:
 ```json
 {
   "email": "test@example.com",
-  "password": "password123"
+  "password": "123456"
 }
 ```
 
